@@ -14,8 +14,8 @@ reddit = praw.Reddit(
 polarizing_phrases = ["immoral", "unpatriotic", "lazy", "close-minded", "unintelligent"]
 
 
-def load_syn(root):
-    with open(f"{root}.txt", 'r') as f:
+def load_syn(word):
+    with open(f"keywords/{word}.txt", 'r') as f:
         return f.read().lower().splitlines(keepends=False)
 
 
