@@ -19,4 +19,4 @@ def collect(subreddit_name="politics", limit=1000, prefer_cache=True, cache=Fals
 
 
 if __name__ == '__main__':
-    collect(prefer_cache=True, cache=True)
+    collect(prefer_cache=False, cache=True)
