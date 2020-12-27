@@ -10,7 +10,7 @@ from settings import reddit
 def comment_dict(comment, attributes=None):
     if attributes is None:
         # default value
-        attributes = ['author', 'body', 'created_utc', 'distinguished', 'edited', 'id', 'is_submitter', 'link_id',
+        attributes = ['author', 'body', 'created_utc', 'edited', 'id', 'is_submitter', 'link_id',
                       'parent_id', 'permalink', 'score', 'stickied', 'subreddit_id']
     result = {}
     for attribute in attributes:
